@@ -1,6 +1,4 @@
 inspectLink = (link) => {
-    console.log(link);
-
     fetch('https://api.csgoskins.gg/inspect-links', {
         method: 'POST',
         headers: {
@@ -41,7 +39,7 @@ inspectLink = (link) => {
                     type: 'basic',
                     iconUrl: './assets/csgo-icon.jpg',
                     title: 'Request Failed',
-                    message: req.message,
+                    message: res.message,
                 });
             }
         })
