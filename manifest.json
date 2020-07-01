@@ -1,0 +1,14 @@
+{
+  "name": "CS:GO Skin Tester",
+  "version": "1.0",
+  "description": "Test skins in-game",
+  "manifest_version": 2,
+  "permissions": [
+    "contextMenus",
+    "tabs",
+    "https://api.csgoskins.gg/*"
+  ],
+  "background": {
+    "page": "background.html"
+  }
+}
