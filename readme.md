@@ -15,10 +15,10 @@ Simply visit the Steam Community Market or any other third party website that su
 
 Here are some popular skin platforms that support inspect links and where this extension will work:
 
-✓ steamcommunity.com
-✓ cs.money
-✓ bitskins.com
-✓ skinport.com
-✓ skinbaron.com
-✓ swap.gg
-✓ And many others!
+- steamcommunity.com
+- cs.money
+- bitskins.com
+- skinport.com
+- skinbaron.com
+- swap.gg
+- And many others!
