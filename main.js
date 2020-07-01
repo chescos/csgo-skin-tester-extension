@@ -16,8 +16,9 @@ inspectLink = function (link) {
             console.log(res);
 
             if (res.success && res.needs_to_connect && res.connect_to_url) {
-                chrome.tabs.create({
-                    url: res.connect_to_url,
+                chrome.tabs.query({ active: true, currentWindow: true }, function (tabs) {
+                    const tab = tabs[0];
+                    chrome.tabs.update(tab.id, { url: res.connect_to_url });
                 });
             }
         })
