@@ -25,9 +25,6 @@ inspectLink = function (link) {
         .catch((error) => {
             console.log(error);
         });
-
-    // window.location = link.linkUrl;
-    // chrome.tabs.create({url: "http://www.urbandictionary.com/define.php?term=" + query});
 };
 
 chrome.contextMenus.create({
