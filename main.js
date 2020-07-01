@@ -22,14 +22,14 @@ inspectLink = (link) => {
 
                     chrome.notifications.create({
                         type: 'basic',
-                        iconUrl: './assets/csgo-icon.jpg',
+                        iconUrl: './assets/icon-128.png',
                         title: 'Skin Sent',
                         message: 'The skin has been sent to the CS:GO test server, please connect.',
                     });
                 } else {
                     chrome.notifications.create({
                         type: 'basic',
-                        iconUrl: './assets/csgo-icon.jpg',
+                        iconUrl: './assets/icon-128.png',
                         title: 'Skin Equipped',
                         message: 'You have been equipped with the selected skin in the CS:GO test server.',
                     });
@@ -37,7 +37,7 @@ inspectLink = (link) => {
             } else {
                 chrome.notifications.create({
                     type: 'basic',
-                    iconUrl: './assets/csgo-icon.jpg',
+                    iconUrl: './assets/icon-128.png',
                     title: 'Request Failed',
                     message: res.message,
                 });
@@ -48,7 +48,7 @@ inspectLink = (link) => {
 
             chrome.notifications.create({
                 type: 'basic',
-                iconUrl: './assets/csgo-icon.jpg',
+                iconUrl: './assets/icon-128.png',
                 title: 'Request Failed',
                 message: 'Something went wrong, please try again.',
             });
