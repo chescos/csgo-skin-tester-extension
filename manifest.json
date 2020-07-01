@@ -1,6 +1,7 @@
 {
   "name": "CS:GO Skin Tester",
-  "version": "1.0",
+  "title": "CS:GO Skin Tester",
+  "version": "0.1.0",
   "description": "Test skins in-game",
   "manifest_version": 2,
   "permissions": [
