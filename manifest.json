@@ -6,6 +6,7 @@
   "permissions": [
     "contextMenus",
     "tabs",
+    "notifications",
     "https://api.csgoskins.gg/*"
   ],
   "background": {
