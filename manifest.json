@@ -1,6 +1,5 @@
 {
   "name": "CS:GO Skin Tester",
-  "title": "CS:GO Skin Tester",
   "version": "0.1.0",
   "description": "Test any CS:GO skin in-game on a test server.",
   "manifest_version": 2,
