@@ -1,5 +1,5 @@
 inspectLink = (link) => {
-    fetch('https://api.csgoskins.gg/inspect-links', {
+    fetch('https://api.csgoskins.gg/tests/link', {
         method: 'POST',
         headers: {
             'Accept': 'application/json',
